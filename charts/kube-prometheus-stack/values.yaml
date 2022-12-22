@@ -1492,6 +1492,8 @@ kube-state-metrics:
   namespaceOverride: ""
   rbac:
     create: true
+  collectors:
+    verticalpodautoscalers: true
   releaseLabel: true
   prometheus:
     monitor:
